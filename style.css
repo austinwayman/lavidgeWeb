@@ -1,0 +1,60 @@
+p {
+    font-size: 12px;
+}
+
+#home {
+    background-image: url(images/jumbotronBackground.png);
+    text-align: center;
+    color: white;
+}
+
+.jumboHeader {
+    font-size:30px;
+}
+
+.jumboButton {
+    margin-top: 30px;
+    color: white;
+    border-radius: 0;
+    border-color: white;
+    font-size: 10px;
+    width: 150px;
+}
+
+.navbar {
+padding: 0.5rem 6rem;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: black;
+}
+
+.firstText {
+    margin: 40px 400px;
+    text-align: center;
+}
+
+.firstHeader {
+    color: #3399cc;
+    font-size: 25px;
+}
+
+.lead {
+    font-size: 14px;
+}
+
+.cardBox {
+    background-color: #f0f0f0;
+    max-width: none;
+    display: flex;
+}
+
+.mainBox {
+    margin-right: 400px;
+    margin-left: 200px;
+}
+
+.boxText {
+    padding: 20px;
+    margin: 20px;
+}

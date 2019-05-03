@@ -50,26 +50,23 @@ padding: 0.5rem 6rem;
     font-size: 14px;
 }
 
-.cardBox {
-    background-color: #f0f0f0;
-    max-width: none;
-    display: flex;
+.bigCard {
+    background-color: lightgrey;
 }
 
-.mainBox {
-    margin-right: 400px;
-    margin-left: 200px;
-    display: flex;
+.carder {
+    border: 0;
+    margin: 0 auto;
+    background: none;
 }
 
-.boxText {
-    padding: 50px 0px 30px 40px;
+.card-title {
+    color: #3399cc;
 }
 
-.tubeImage img {
-    float: left;
-    width: 325px;
-    height: 190px;
+.card-body {
+    padding: 40px;
+    margin-top: 20px;
 }
 
 .list-things {

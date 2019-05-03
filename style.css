@@ -80,7 +80,8 @@ padding: 0.5rem 6rem;
 .mainList {
     margin: 0 auto;
     width: 600px;
-    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 .boxHeader {
@@ -95,4 +96,41 @@ padding: 0.5rem 6rem;
 
 .media .listHeaders {
     color: #3399cc;
+}
+
+.flexer {
+    display: flex;
+}
+
+.flexer a {
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.flexer a:hover {
+    color: #3399cc;
+}
+
+.bottomContactButton {
+    width: 225px;
+    font-size: 12px;
+    border-radius: 0px;
+    height: 40px;
+}
+
+.container .linker a {
+    text-decoration: none;
+    color: black;
+}
+
+.listDiv {
+    background-image: url('images/lowerBackground.png');
+}
+
+@media only screen and (max-width: 768px) {
+    .flexer {
+    justify-content: center;
+    }
 }
